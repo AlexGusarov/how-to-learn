@@ -251,7 +251,7 @@
   font-weight: normal;
   position: absolute;
   top: 50%;
-  right: 48px; 
+  right: 48px;
   text-decoration: none;
   color: #2f80ed;
 }
@@ -259,7 +259,7 @@
 
 .feynman__image {
   width: 867px;
-  height: 637px;  
+  height: 637px;
   position: absolute;
   left: 0;
   bottom: 0;
