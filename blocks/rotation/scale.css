@@ -1,0 +1,18 @@
+@keyframes pulse {
+  from {
+    transform: scale(1);
+  }
+  
+  to {
+    transform: scale(1.1);
+  }
+}
+
+.pulsation {
+  animation: pulse 2s ease-in-out alternate infinite;
+}
+
+.pulsation:hover {
+  animation: none;
+  color: blue;
+}

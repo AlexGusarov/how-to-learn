@@ -1,0 +1,8 @@
+.table__cell {
+  display: flex;
+  flex-direction: column;
+ }
+
+.table__cell:last-of-type {
+  margin-right: 0;
+}
