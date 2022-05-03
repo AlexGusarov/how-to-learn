@@ -1,6 +1,7 @@
 .table__cell {
   display: flex;
   flex-direction: column;
+  margin-top: 60px;
  }
 
 .table__cell:last-of-type {

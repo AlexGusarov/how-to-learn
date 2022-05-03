@@ -2,9 +2,6 @@
   display: flex;
   width: 1050px;
   justify-content: space-between;
-  margin-top: -70px;
   position: relative;
-  bottom: -60px;
+  bottom: -50px;
 }
-/* Позиционирование - для наплыва блока с видео на следующий блок.*/
-/* Отрицательный марджин позволяет компенсировать сдвиг блока и подстроиться под блок section-subtitle без модификатора*/
