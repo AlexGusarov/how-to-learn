@@ -1,13 +1,7 @@
 .footer__column_content_copyright {
-<<<<<<< HEAD
   -ms-flex-preferred-size: 711px;
       flex-basis: 711px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-=======
-  flex-basis: 711px;
-  justify-content: space-between;
-}
->>>>>>> aa14982822b45c7f180c4e9e3504c7760d7a4825
