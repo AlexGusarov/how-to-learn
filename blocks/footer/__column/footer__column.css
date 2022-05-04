@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .footer__column {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6,4 +7,10 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+=======
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+>>>>>>> aa14982822b45c7f180c4e9e3504c7760d7a4825
 }
