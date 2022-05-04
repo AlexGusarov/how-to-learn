@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .two-columns {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5,5 +6,11 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+=======
+
+.two-columns {
+  display: flex;
+  justify-content: space-between;
+>>>>>>> aa14982822b45c7f180c4e9e3504c7760d7a4825
   width: 80%;
 }

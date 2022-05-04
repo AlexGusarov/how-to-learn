@@ -1,9 +1,14 @@
 .description {
+<<<<<<< HEAD
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+=======
+  display: flex;
+  justify-content: center;
+>>>>>>> aa14982822b45c7f180c4e9e3504c7760d7a4825
   padding-top: 100px;
 }

@@ -1,7 +1,10 @@
 .table__cell {
   display: flex;
   flex-direction: column;
+<<<<<<< HEAD
   margin-top: 60px;
+=======
+>>>>>>> aa14982822b45c7f180c4e9e3504c7760d7a4825
  }
 
 .table__cell:last-of-type {
