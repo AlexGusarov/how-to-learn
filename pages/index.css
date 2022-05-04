@@ -1,3 +1,4 @@
+@import url(../vendor/normalize.css);
 @import url(../blocks/root/root.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__link/header__link.css);
@@ -42,7 +43,6 @@
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
 @import url(../blocks/rotation/rotation.css);
-@import url(../blocks/rotation/type/rotation_type_overflow-hidden.css);
 @import url(../blocks/rotation/scale.css);
 @import url(../blocks/techniques/techniques.css);
 @import url(../blocks/cards/cards.css);

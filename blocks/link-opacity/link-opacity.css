@@ -1,4 +1,6 @@
 .link-opacity {
+  -webkit-transition: opacity ease 0.4s;
+  -o-transition: opacity ease 0.4s;
   transition: opacity ease 0.4s;
 }
 
