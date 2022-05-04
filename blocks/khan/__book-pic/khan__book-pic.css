@@ -3,7 +3,7 @@
   width: 608px;
   margin-right: 48px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: left top;
-     object-position: left top;
+  object-position: left top;
 }

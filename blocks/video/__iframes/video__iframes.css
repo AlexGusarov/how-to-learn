@@ -4,8 +4,8 @@
   display: flex;
   width: 1050px;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   position: relative;
   bottom: -50px;
 }
