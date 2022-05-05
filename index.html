@@ -11,7 +11,7 @@
       <header class="header">
         <a href="https://practicum.yandex.ru/">
           <img
-            class="logo logo_place_header"
+            class="logo logo_place_header link-opacity"
             src="./images/logo_place_header.svg"
             alt="Яндекс Практикум"
           />
@@ -125,20 +125,22 @@
         <section class="video">
           <h2 class="section-title">Видео на TED</h2>
           <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-          <div class="video__iframes">
-            <iframe
-              id="ytplayer"
-              class="video__iframe"
-              src="https://www.youtube.com/embed/5MgBikgcWnY"
-              allowfullscreen
-            ></iframe>
-            <iframe
-              id="youtube-videoplayer"
-              class="video__iframe"
-              src="https://www.youtube.com/embed/arj7oStGLkU"
-              allowfullscreen
-            ></iframe>
-          </div>
+          <ul class="video__iframes list">
+            <li>
+              <iframe
+                class="video__iframe"
+                src="https://www.youtube.com/embed/5MgBikgcWnY"
+                allowfullscreen
+              ></iframe>
+            </li>
+            <li>
+              <iframe
+                class="video__iframe"
+                src="https://www.youtube.com/embed/arj7oStGLkU"
+                allowfullscreen
+              ></iframe>
+            </li>
+          </ul>
         </section>
         <section class="oakley">
           <div class="two-columns">
@@ -318,52 +320,60 @@
           <p class="section-subtitle">
             Больше материалов о техниках и лайфхаках обучения
           </p>
-          <div class="resources__logo-zone list">
-            <a
-              href="https://arzamas.academy/"
-              class="resources__link link-opacity"
-              target="_blank"
-            >
-              <img
-                src="./images/logo/resources-arzamas.svg"
-                alt="Арзамас"
-                class="resources__logo"
-              />
-            </a>
-            <a
-              href="https://nplus1.ru/"
-              class="resources__link link-opacity"
-              target="_blank"
-            >
-              <img
-                src="./images/logo/resources-n1.svg"
-                alt="Сайт N+1"
-                class="resources__logo link-opacity"
-              />
-            </a>
-            <a
-              href="https://strelka.com/ru/"
-              class="resources__link link-opacity"
-              target="_blank"
-            >
-              <img
-                src="./images/logo/resources-strelka.svg"
-                alt="Стрелка"
-                class="resources__logo link-opacity"
-              />
-            </a>
-            <a
-              href="https://polka.academy/"
-              class="resources__link link-opacity"
-              target="_blank"
-            >
-              <img
-                src="./images/logo/resources-polka.svg"
-                alt="Полка"
-                class="resources__logo"
-              />
-            </a>
-          </div>
+          <ul class="resources__logo-zone list">
+            <li>
+              <a
+                href="https://arzamas.academy/"
+                class="resources__link link-opacity"
+                target="_blank"
+              >
+                <img
+                  src="./images/logo/resources-arzamas.svg"
+                  alt="Арзамас"
+                  class="resources__logo"
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://nplus1.ru/"
+                class="resources__link link-opacity"
+                target="_blank"
+              >
+                <img
+                  src="./images/logo/resources-n1.svg"
+                  alt="Сайт N+1"
+                  class="resources__logo link-opacity"
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://strelka.com/ru/"
+                class="resources__link link-opacity"
+                target="_blank"
+              >
+                <img
+                  src="./images/logo/resources-strelka.svg"
+                  alt="Стрелка"
+                  class="resources__logo link-opacity"
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://polka.academy/"
+                class="resources__link link-opacity"
+                target="_blank"
+              >
+                <img
+                  src="./images/logo/resources-polka.svg"
+                  alt="Полка"
+                  class="resources__logo"
+                />
+              </a>
+            </li>
+          </ul>
         </section>
       </main>
       <footer class="footer">
@@ -371,7 +381,7 @@
           <div class="footer__column footer__column_content_copyright">
             <a href="https://practicum.yandex.ru/">
               <img
-                class="logo logo_place_footer"
+                class="logo logo_place_footer link-opacity"
                 src="./images/logo_place_footer.svg"
                 alt="Яндекс Практикум"
               />
@@ -384,14 +394,26 @@
             <!--модификатор поставлен на тот случай, если в дальнейшем нужно будет изменить именно эту колонку. На данный момент она не отличается от третьей, поэтому к ней и к третьей колонке отдельные стили не прописаны -->
             <h3 class="footer__column-heading">О Практикуме</h3>
             <ul class="list">
-              <li><a href="#" class="footer__column-links">Главная</a></li>
-              <li><a href="#" class="footer__column-links">Концепция</a></li>
-              <li><a href="#" class="footer__column-links">Наставники</a></li>
+              <li>
+                <a href="#" class="footer__column-links link-opacity">
+                  Главная
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer__column-links link-opacity">
+                  Концепция
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer__column-links link-opacity">
+                  Наставники
+                </a>
+              </li>
             </ul>
           </nav>
           <div class="footer__column footer__column_content_social">
             <h3 class="footer__column-heading">Соцсети</h3>
-            <a href="https://vk.com" class="footer__column-link">
+            <a href="https://vk.com" class="footer__column-link link-opacity">
               <img
                 class="footer__social-icon"
                 src="./images/vk_color_white.svg"
@@ -399,7 +421,28 @@
               />
               ВКонтакте
             </a>
-            <!-- Соцсети Instagram и Facebook не указаны с иконками из-за их статуса в России -->
+            <a
+              href="https://facebook.com"
+              class="footer__column-link link-opacity"
+            >
+              <img
+                class="footer__social-icon"
+                src="./images/facebook_color_white.svg"
+                alt="Фейсбук"
+              />
+              Facebook
+            </a>
+            <a
+              href="https://insagram.com"
+              class="footer__column-link link-opacity"
+            >
+              <img
+                class="footer__social-icon"
+                src="./images/instagram_color_white.svg"
+                alt="Инстаграм"
+              />
+              Instagram
+            </a>
           </div>
         </div>
       </footer>
